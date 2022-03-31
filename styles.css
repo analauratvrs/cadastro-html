@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #3F3D56;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 396px;
+    width: 100%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 22px;
+}
+
+.space-between {
+    width: 170px;
+}
+
+.double-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#birth-date-input {
+    width: 170px;
+    margin-top: 9px;
+}
+
+#country-input {
+    width: 199px;
+    height: 46px;
+    margin-top: 9px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    height: 47px;
+
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.label-field {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.input-field, select {
+    width: 100%;
+    border: 1px solid #ABB3A8;
+
+    padding: 12px 14px;
+    outline: none;
+    margin-bottom: 22px;
+}
+
+.gender-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gender-title {
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+
+.gender-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.checkbox-field {
+    margin-right: 10px;
+}
+
+.terms {
+    display: flex;
+    margin-bottom: 28px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+a {
+    color: #1DB9E0;
+}
+
+button {
+    width: 396px;
+    height: 47px;
+    color: #ffffff;
+    background-color: #3F3D56;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 12px;
+    margin-bottom: 28px;
+}
+
+
+/* id's se estilizam com # */
